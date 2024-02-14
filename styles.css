@@ -1,0 +1,36 @@
+.main{
+    background-color: hsla(89, 43%, 51%, 0.3);
+
+}
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 50px;
+    text-align: center;
+}
+
+.calculator input[type="text"] {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.calculator .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.calculator .keys button {
+    padding: 10px;
+    font-size: 20px;
+    background-color:white;
+    border: none;
+    cursor: pointer;
+}
+
+.calculator .keys button:hover {
+    background-color: #a59c9c;
+}
